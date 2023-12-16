@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- عندما يكون الـ RadioButton مختار -->
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="#8B2D0803"/> <!-- لون الخلفية للزر المختار -->
+            <corners android:radius="50dp"/> <!-- جعل الزوايا دائرية -->
+        </shape>
+    </item>
+    <!-- عندما لا يكون الـ RadioButton مختار -->
+    <item android:state_checked="false">
+        <shape>
+            <corners android:radius="50dp"/> <!-- جعل الزوايا دائرية -->
+        </shape>
+    </item>
+</selector>
